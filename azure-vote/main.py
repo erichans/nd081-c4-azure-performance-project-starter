@@ -26,7 +26,7 @@ from opencensus.ext.flask.flask_middleware import FlaskMiddleware
 config_integration.trace_integrations(['logging'])
 config_integration.trace_integrations(['requests'])
 
-instrumentationKey = 'XXX'
+instrumentationKey = 'ab849540-85e6-47c2-b9a0-8fa3bbfeb3b5'
 
 # Logging
 logger = logging.getLogger(__name__) # TODO: Setup logger
